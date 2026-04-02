@@ -1,0 +1,10 @@
+<a routerLink="/product-list">Lista de produtos</a>
+
+
+<ul>
+@for(route of routeList; track route){
+    <li>
+        <a routerLink="{{route.link}}">{{route.label}}</a>
+    </li>
+}
+</ul>
