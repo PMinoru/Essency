@@ -1,0 +1,24 @@
+.footer {
+    transform: translateX(-1%);
+    width: 1450px;
+    background-color: #D1D098;
+
+    padding: 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.identidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+}
+
+.links{
+    margin-top: 3%;
+}
