@@ -6,11 +6,10 @@ import { Settings } from './pages/settings/settings';
 import { AdminPage } from './pages/admin-page/admin-page';
 import { Cart } from './pages/cart/cart';
 import { Favorites } from './pages/favorites/favorites';
-import { ProductList } from './pages/product-list/product-list';
 import { Register } from './pages/register/register';
 import { ProductCrud } from './pages/product-crud/product-crud';
 import { AboutUs } from './pages/about-us/about-us';
-import { ApplicationConfig } from '@angular/core';
+import { ProductRegister } from './pages/product-register/product-register';
 
 export const routes: Routes = [
     {path: "", component:Home},
@@ -21,7 +20,7 @@ export const routes: Routes = [
     {path: "admin-page", component:AdminPage},
     {path: "cart", component:Cart},
     {path: "favorites", component:Favorites},
-    {path: "product-list", component:ProductList},
     {path: "product-crud", component:ProductCrud},
-    {path: 'about-us', component:AboutUs}
+    {path: 'about-us', component:AboutUs},
+    {path: 'product-register', component:ProductRegister}
 ];

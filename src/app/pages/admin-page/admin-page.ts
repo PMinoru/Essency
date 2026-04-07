@@ -9,12 +9,8 @@ import { RouterLink, RouterModule } from "@angular/router";
 })
 export class AdminPage {
   routeList=[
-    {label: "Lista de Produtos", link: "/product-list"},
-<<<<<<< HEAD
-    {label: "Registrar Produtos", link: "/product-crud"}
-=======
-    {label: "Registrar Produtos", link: "/register"}
->>>>>>> 090fae2e12c271a966be3d123a379b2700ed4ede
+    {label: "Lista de Produtos", link: "/product-crud"},
+    {label: "Registrar Produtos", link: "/product-register"}
     
   ]
 }
